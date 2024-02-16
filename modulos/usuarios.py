@@ -12,6 +12,7 @@ idNuevo = id+1
 def seleccionarServiciosContratados():
     cantidadServiciosUsuario = input(f"Ingrese la cantidad de servicios contratados por el cliente\n-->")
     cantidadServiciosUsuario = infoValida.datoInt(cantidadServiciosUsuario, "cantidad de servicios")
+    #edit
     agregarServicios = "s"
     while agregarServicios == "s":  
         servicios = []
